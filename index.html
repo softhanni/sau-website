@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+*{
+    margin: 0;
+   
+}
+        .header{
+            height: 110px;
+            width: 100%;
+            background: rgb(2,0,36);
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,48,33,1) 37%, rgba(0,212,255,1) 100%);
+        }
+
+        .logo{
+            height: 50px;
+            width: 100px;
+            /* background-color: blue; */
+            position: relative;
+            
+            left: 100px;
+
+        }
+
+        .logo img{
+            height: 120px;
+           width: 130px;
+        }
+   
+    
+        .navbar{
+            height: 50px;
+            width: 600px;
+            /* background-color: black; */
+            float: right;
+            margin-right: 80px;
+            margin-top: -10px;
+            
+        }
+
+        .navbar a{
+            text-decoration: none;
+            /* padding: 30px; */
+            padding-left: 40px;
+            
+            color: aliceblue;
+            font-size: 25px;
+            position: relative;
+            top: 10px;
+            
+        }
+        
+        
+        .content{
+            height: 530px;
+            width: 100%;
+            background-image: url(sau\ img.jpg);
+            background-size: 100% 530px;
+        }
+        .content h2{
+            color: black;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 150px;
+            padding-left: 500px;
+            
+        }
+        .content .btn{
+
+            width: 250px;
+            height: 50px;
+            background-color: rgba(6, 26, 3, 0.726);
+            color: white;
+            border-radius: 10px;
+            font-size: 35px;
+            border: hidden;
+            float: right;
+            margin-right: 305px;
+            box-shadow: 10px 9px 10px 1px rgba(0,0,0,0.8);
+            
+
+
+        }
+        .content .btn:hover{
+            /* box-shadow: -10px -9px 10px 1px rgba(0,0,0,0.8); */
+            transition: 0.5s;
+            border-radius: 25px;
+        }
+        
+        
+        .content2{
+            height: 680px;
+            width: 100%;
+            background: url(sau\ img3.jpg);
+            background-size: 100% 675px;
+            background-repeat: no-repeat;
+
+            
+            box-shadow: 0px -5px 20px 5px rgba(0,0,0,0.8);
+
+        }
+        .content2 .d1{
+            height: 230px;
+            width: 230px;
+            border-radius: 115px;
+            
+        }
+        .content2  #first{
+            height: 230px;
+            width: 230px;
+            background-image: url(img1.jpg);
+            background-size: 230px 230px;
+            position: relative;
+            top: 400px;
+            left: 150px;
+            border-radius: 115px;
+        }
+        .content2  #second{
+            height: 230px;
+            width: 230px;
+            background-image: url(img2.jpg);
+            background-size: 230px 230px;
+            position: relative;
+            top: 170px;
+            left: 550px;
+            border-radius: 115px;
+        }
+        .content2  #third{
+            height: 230px;
+            width: 230px;
+            background-image: url(img3.jpg);
+            background-size: 230px 230px;
+            float: right;
+           position: relative;
+           right: 150px;
+           bottom: 60px;
+            border-radius: 115px;
+        }
+        .content2 .d1 h2{
+            color: white;
+            font-size: 30px;
+            position: relative;
+            top: 160px;
+            left: 40px;
+            
+        }
+
+      
+    
+       
+    </style>
+</head>
+<body>
+    
+
+    <div class="header">
+
+        <div class="logo">
+<img src="SAU-logo.png" alt="logo">
+        </div>
+
+        <div class="navbar">
+
+           <a href="#">Home</a>
+           <a href="#">About Us</a>
+           <a href="#">Contact</a>
+           <a href="#">Privacy</a>
+
+
+        </div>
+    </div>
+
+    <!-- header end -->
+
+    <div class="content">
+
+        <h2>Sindh Agriculture University <br> Tando Jam</h2>
+        <button class="btn">Welcome</button>
+
+
+    </div>
+
+    <div class="content2">
+
+        <div class="d1" id="first"><h2>Animals</h2></div>
+        <div class="d1" id="second"><h2>Agriculture</h2></div>
+        <div class="d1" id="third"><h2>Poultry</h2></div>
+
+
+    </div>
+
+
+</body>
+</html>
